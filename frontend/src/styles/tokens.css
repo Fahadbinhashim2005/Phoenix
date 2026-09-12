@@ -1,0 +1,15 @@
+:root {
+  --bg: #070B17;
+  --bg-secondary: #0A1020;
+  --panel: #0D1425;
+  --panel-hover: #111A2E;
+  --text: #F5F7FF;
+  --text-secondary: #9BA5BA;
+  --text-muted: #657087;
+  --accent: #7C6CFF;
+  --accent-light: #9B8CFF;
+  --success: #4ADE80;
+  --blue: #60A5FA;
+  --orange: #FB923C;
+  --pink: #F472B6;
+}
