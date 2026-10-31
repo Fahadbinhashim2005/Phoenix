@@ -1,4 +1,4 @@
-import { View, Text } from "react-native";
+import { View, Text, Pressable } from "react-native";
 import { Link } from "expo-router";
 
 export default function Home() {
@@ -8,8 +8,10 @@ export default function Home() {
       <Text className="text-text-secondary text-center mb-8">
         Rise. Rebuild. Become.
       </Text>
-      <Link href="/auth/login" className="bg-primary px-6 py-3 rounded-full overflow-hidden">
-        <Text className="text-white font-semibold">Get Started</Text>
+      <Link href="/auth/login" asChild>
+        <Pressable className="bg-primary px-8 py-3 rounded-full overflow-hidden active:opacity-80">
+          <Text className="text-white font-semibold text-lg">Get Started</Text>
+        </Pressable>
       </Link>
     </View>
   );
